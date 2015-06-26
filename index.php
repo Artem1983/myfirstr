@@ -13,7 +13,7 @@
 		require_once $class."_class.php";
 		new $class();
 	}
-	// тестовый комент
+	// тестовый комент ф
 	else {
 		header("Location: ".$url->notFound());
 		exit;
